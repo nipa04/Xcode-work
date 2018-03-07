@@ -1,3 +1,6 @@
+        totalmarks = M + P + C
+        totalmarks = M + P + C
+        totalmarks = M + P + C
 
 func triangle (_ angle1 : Int, _ angle2: Int, _ angle3 :Int) -> String {
     if (angle1 == angle2) || ( angle2 == angle3) || ( angle3 == angle1) {
