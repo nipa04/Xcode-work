@@ -14,6 +14,6 @@ func triangle (_ angle1 : Int, _ angle2: Int, _ angle3 :Int) -> String {
 }
     return ""
 }
-
+ 
 let result = triangle(50, 59 ,50)
 print(result)
