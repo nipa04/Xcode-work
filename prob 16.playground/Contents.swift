@@ -1,5 +1,15 @@
-//: Playground - noun: a place where people can play
 
-import UIKit
+func checkcharacter (char:Character) -> String {
+    if (char >= "a" && char <= "z") || (char >= "A" && char <= "Z"){
+        print("this is a alphabet")
+    }
+    else if (char >= "0" && char <= "9"  ) {
+        print("this is a digit")
+    }
+    else {
+        print("this is a special character")
+    }
+    return ""
+}
 
-var str = "Hello, playground"
+let r = checkcharacter(char: "?" )
