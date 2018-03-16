@@ -1,7 +1,9 @@
-var numberOfTerms = 0
-var s = 0
-while numberOfTerms < 4 {
-    numberOfTerms += 1
-  
-    print("(*)")
+var rows = 0
+var i = 0
+var j = 1
+while rows < 10 {
+    rows += 1
+    i += rows
+    print("\(i)")
+    
 }
