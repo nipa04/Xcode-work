@@ -1,9 +1,14 @@
-var rows = 0
-var i = 0
-var j = 1
-while rows < 10 {
-    rows += 1
-    i += rows
-    print("\(i)")
-    
+var numberOfTerms = 0
+while numberOfTerms < 4 {
+    var pattern = ""
+    var nuberOfTimes = 0
+    while nuberOfTimes <= numberOfTerms {
+        
+        pattern += "*"
+        nuberOfTimes += 1
+    }
+    print ("\(pattern)")
+     numberOfTerms += 1
+   
 }
+
