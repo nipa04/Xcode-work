@@ -15,4 +15,4 @@ func calculate (grade value: Character) -> String {
     }
 }
 
-print(calculate(grade: "E"))
+print(calculate(grade: "A"))

@@ -20,4 +20,4 @@ func findArmstongNumber(check number:Int) -> String {
     return  ""
 }
 
-findArmstongNumber(check: 371)
+findArmstongNumber(check: 153)

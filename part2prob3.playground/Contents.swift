@@ -1,17 +1,18 @@
 func oddNumbers(arg number: Int) -> String {
-    if number % 2 == 1 {
+    if (number % 2 == 1 ){
         return "The number is odd"
     }
 
-    var d = (number % 2 == 1)
-    var sum:Int
+   
+    var sum = 0
     while number % 2 == 1 {
         for index in 1...10 {
-            sum
+            sum += index
         }
+        print (sum)
     }
     return ""
 }
  print(oddNumbers(arg: 5))
 
-oddNumbers(arg: 0).append()
+oddNumbers(arg: 5).append()

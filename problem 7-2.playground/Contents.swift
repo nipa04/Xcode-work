@@ -1,5 +1,5 @@
 
-var multiply = 0
+var multiply = 1
 var numberOfTerms = 0
 while numberOfTerms < 10 {
     numberOfTerms += 1

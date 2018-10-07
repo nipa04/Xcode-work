@@ -3,7 +3,7 @@ var numberOfTerms = 0
 var sum = 0
 while numberOfTerms < 5 {
     numberOfTerms += 1
-    sum +=
+    sum += x
 }
 print ("Number of terms = 5")
 //print ("\(sum)")

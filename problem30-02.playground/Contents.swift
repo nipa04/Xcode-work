@@ -8,7 +8,6 @@ func findArmstongNumber(check number:Int) -> String {
             print (d)
             numberClone = numberClone / 10
             sum += (d * d * d)
-            
         }
         print (sum)
         if sum == number  {
@@ -16,9 +15,7 @@ func findArmstongNumber(check number:Int) -> String {
         }
         else {
             print("\(number) is not a armstorng number")
-            
         }
-        
     }
     return ""
 }

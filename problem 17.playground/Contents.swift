@@ -32,7 +32,7 @@
             return "The Net Amount paid by the Customer is \(netamount)"
         }
         else if charge < 100 {
-          return " Not qualify for the minimum anount a customer have to pay"
+          return " Not qualify for the minimum amount a customer have to pay"
         }
         else {
              return "\(charge)"

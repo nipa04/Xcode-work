@@ -1,6 +1,6 @@
 var numberOfTerms = 0
-var sum = 1.0
-var harmonic = 0.0
+var sum = 0.0
+var harmonic = 1.0
 while numberOfTerms < 5 {
     numberOfTerms += 1
     harmonic += 1

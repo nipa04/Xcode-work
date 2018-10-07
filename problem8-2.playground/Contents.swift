@@ -1,10 +1,21 @@
-var numberofterms = 0
-var oddNumbers = 1
+
 var sum = 0
-while numberofterms < 10 {
-    print("\(oddNumbers)")
-    sum += oddNumbers
-    numberofterms += 1
-    oddNumbers += 2
+for number in 1...20 {
+    if (number % 2 == 1) {
+        print ("\(number)")
+        sum += number
+    }
 }
 print ("\(sum)")
+
+//var number = 0
+//var sum = 0
+//var oddnumber = 1
+//while number < 10 {
+//    number += 1
+//    print ("\(oddnumber)")
+//    oddnumber += 2
+//    sum += oddnumber
+//}
+//print ("\(sum)")
+
